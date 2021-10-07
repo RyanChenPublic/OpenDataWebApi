@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>各鄉鎮市區人口密度</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <div>
+        <div id="header"></div>
+        
+        <div>
+            <div class="row">
+                <div class=" col-12">
+                    <button type="button" id="getOpenData" class="btn btn-primary">取得資料</button>
+                    <button type="button" id="InsertDb" class="btn btn-primary">資料寫入DB</button>
+                </div>
+            </div>
+            <div class="row">
+                <table class="table table-striped table-hover" id="OpenDataTable" style="text-align:center">
+                    <thead>
+                        <tr>
+                            <th scope="row" data-field="statistic_yyy">統計年</th>
+                            <th scope="row" data-field="site_id">區域別</th>
+                            <th scope="row" data-field="people_total">年底人口數</th>
+                            <th scope="row" data-field="area">土地面積</th>
+                            <th scope="row" data-field="population_density">人口密度</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

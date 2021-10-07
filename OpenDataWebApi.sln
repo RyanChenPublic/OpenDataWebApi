@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDataWebApi", "OpenDataWebApi\OpenDataWebApi.csproj", "{1DEE654C-2D67-46EA-920C-EF5B50D7FB68}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "OpenDataDB", "OpenDataDB\OpenDataDB.sqlproj", "{433FB04F-F558-4435-9167-2D8C1AC8BE9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DEE654C-2D67-46EA-920C-EF5B50D7FB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DEE654C-2D67-46EA-920C-EF5B50D7FB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DEE654C-2D67-46EA-920C-EF5B50D7FB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DEE654C-2D67-46EA-920C-EF5B50D7FB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433FB04F-F558-4435-9167-2D8C1AC8BE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433FB04F-F558-4435-9167-2D8C1AC8BE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433FB04F-F558-4435-9167-2D8C1AC8BE9B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{433FB04F-F558-4435-9167-2D8C1AC8BE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433FB04F-F558-4435-9167-2D8C1AC8BE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433FB04F-F558-4435-9167-2D8C1AC8BE9B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {708C33E5-CDE5-4534-B1D5-869415E3E1F6}
+	EndGlobalSection
+EndGlobal
